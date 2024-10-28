@@ -11,9 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
-
-
-
+let fullName ="Ibrahim Elchami"
+let yearOfBirth = 1990
+let hobby = "Coding"
+let funFact = "FunFact!"
+const image = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExODV4eXU3aWF4M3A3emtsYWJubWgzYnRsNGVya3Z0eHU2cnA3aHFiYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T8Dhl1KPyzRqU/200.webp"
 
 
 /**
@@ -28,10 +30,11 @@
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
+let now = new Date;
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${now.getFullYear()-yearOfBirth}`
+const hobbyString = `My hobby is ${hobby}`
 
 
 
@@ -45,14 +48,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars += 1;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars -= 1;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars += 2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars -= 2;
 }
