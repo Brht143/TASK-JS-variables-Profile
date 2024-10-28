@@ -14,7 +14,7 @@
 let fullName ="Ibrahim Elchami"
 let yearOfBirth = 1990
 let hobby = "Coding"
-let funFact = "FunFact!"
+let funFact = "I regret not joining CODED earlier !"
 const image = "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExODV4eXU3aWF4M3A3emtsYWJubWgzYnRsNGVya3Z0eHU2cnA3aHFiYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/T8Dhl1KPyzRqU/200.webp"
 
 
